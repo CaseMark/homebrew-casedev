@@ -6,6 +6,12 @@ Official Homebrew tap for the [case.dev CLI](https://github.com/CaseMark/casedev
 
 ```bash
 brew tap CaseMark/casedev
+brew install --cask casedev
+```
+
+Equivalent fully-qualified install:
+
+```bash
 brew install --cask CaseMark/casedev/casedev
 ```
 
@@ -13,7 +19,7 @@ brew install --cask CaseMark/casedev/casedev
 
 ```bash
 brew update
-brew upgrade --cask CaseMark/casedev/casedev
+brew upgrade --cask casedev
 ```
 
 ## Verify installation
