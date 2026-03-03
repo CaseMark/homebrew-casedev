@@ -3,7 +3,7 @@ cask "casedev" do
   name "casedev"
   desc "The official CLI for case.dev — manage legal AI resources from the terminal"
   homepage "https://case.dev"
-  version "0.5.1"
+  version "0.5.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -18,22 +18,22 @@ cask "casedev" do
   on_macos do
     on_intel do
       url "https://github.com/CaseMark/casedev-cli/releases/download/v#{version}/casedev_#{version}_macos_amd64.zip"
-      sha256 "4b1b818f81237ca665b5700f7916582d770083a92c1998322c5a0911774bd2a1"
+      sha256 "4169f1e18dfa0f9a997285b0283b8752b3ffd2a4daafdbcb7f5d39126daffdec"
     end
     on_arm do
       url "https://github.com/CaseMark/casedev-cli/releases/download/v#{version}/casedev_#{version}_macos_arm64.zip"
-      sha256 "915019fd85c72f4eb7f7bf26f3c1949f3a62d9cdd400a439e9cfb9b4f95854cc"
+      sha256 "e93be655db3d3a7fbabdef70a416d71461c83a827a15c38daca598350d36f74a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/CaseMark/casedev-cli/releases/download/v#{version}/casedev_#{version}_linux_amd64.tar.gz"
-      sha256 "fcfcdbcd26cbac43862f35c55c9bcfa369b781c138ceb40046741232f55131ef"
+      sha256 "5b8dae6de2f1530560f1760b66d059da2d1bea81a11316504b0324c581c142cb"
     end
     on_arm do
       url "https://github.com/CaseMark/casedev-cli/releases/download/v#{version}/casedev_#{version}_linux_arm64.tar.gz"
-      sha256 "c917b1baad6eb688c9681976562efdfd14aa5c0c2910f456b877201fc06b6870"
+      sha256 "772d30a0be9788b35c6c8414b1e59ad79d3b91bfbe446d909009729e0c3e0616"
     end
   end
 
